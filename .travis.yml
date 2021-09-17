@@ -68,5 +68,5 @@ script:
   - wget https://ap-fileserver.veritran.com/abcl/qa.abcvisa.7.1.0.45948.apk
   - ls
   - pwd
-  - cd automation-mobile
-  - ls
+  - cd appium
+  - yarn
