@@ -12,3 +12,14 @@ script:
   - sudo apt-get install nodejs | echo y
   - npm -v 
   - npm –version
+  # Fixear NODE js queda con version vieja
+  - sudo apt-get install default-jdk | echo y
+  - java -version
+  - wget https://dl.google.com/android/repository/commandlinetools-linux-7583922_latest.zip
+  - unzip commandlinetools-linux-7583922_latest.zip
+  - cd cmdline-tools/
+  - pwd
+  - cd bin
+  - ./sdkmanager
+  #- export PATH=/opt/pradip/tools:/opt/pradip/tools/bin:$PATH
+         
