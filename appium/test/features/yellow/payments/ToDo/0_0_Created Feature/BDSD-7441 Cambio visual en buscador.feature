@@ -1,0 +1,1 @@
+Feature: BDSD-7441	Cambio visual en buscador

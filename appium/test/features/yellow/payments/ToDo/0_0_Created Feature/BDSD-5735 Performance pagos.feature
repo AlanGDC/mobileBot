@@ -1,0 +1,1 @@
+Feature: BDSD-5735	Performance pagos

@@ -1,0 +1,1 @@
+Feature: BDSD-5877	Payments - Agenda/Historial - Al buscar un valor inexistente el teclado no permite visualizar el mensaje.

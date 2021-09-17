@@ -1,0 +1,1 @@
+Feature: BDSD-5396	Agregar empty state en Recargas (en lugar de modal de error) cuando no se pueden obtener las últimas recargas

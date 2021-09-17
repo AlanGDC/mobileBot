@@ -1,0 +1,1 @@
+Feature: BDSD-2948	Acomodar en el inicio bien a la izquierda el menú de categorías. Ajustar el margen izquierdo del scroll de categorías.

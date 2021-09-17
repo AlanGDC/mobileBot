@@ -1,0 +1,1 @@
+Feature: BDSD-3385	Faveo y alias de primera recarga que no se mueva

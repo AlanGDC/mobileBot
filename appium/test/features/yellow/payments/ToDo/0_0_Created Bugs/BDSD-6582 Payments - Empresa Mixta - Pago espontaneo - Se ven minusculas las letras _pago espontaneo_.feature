@@ -1,0 +1,1 @@
+Feature: BDSD-6582	Payments - Empresa Mixta - Pago espontaneo - Se ven minusculas las letras "pago espontaneo"

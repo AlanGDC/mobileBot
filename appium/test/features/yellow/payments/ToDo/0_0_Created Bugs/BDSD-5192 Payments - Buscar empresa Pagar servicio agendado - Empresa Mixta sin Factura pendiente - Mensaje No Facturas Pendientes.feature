@@ -1,0 +1,1 @@
+Feature: BDSD-5192	Payments - Buscar empresa Pagar servicio agendado - Empresa Mixta sin Factura pendiente - Mensaje No Facturas Pendientes

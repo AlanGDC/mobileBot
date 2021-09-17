@@ -1,0 +1,1 @@
+Feature: BDSD-7351	Handlear correctamente pago/recarga con importe no permitido (soap 75)

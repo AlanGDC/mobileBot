@@ -1,0 +1,1 @@
+Feature: BDSD-5920	Payments - Pago empresa Mixta - Pago espontáneo - API 27 - El sistema no muestra la pantalla de Input de monto

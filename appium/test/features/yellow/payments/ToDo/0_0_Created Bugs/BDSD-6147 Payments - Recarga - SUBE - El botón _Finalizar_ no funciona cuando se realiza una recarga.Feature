@@ -1,0 +1,1 @@
+Feature: BDSD-6147	Payments - Recarga - SUBE - El botón "Finalizar" no funciona cuando se realiza una recarga.

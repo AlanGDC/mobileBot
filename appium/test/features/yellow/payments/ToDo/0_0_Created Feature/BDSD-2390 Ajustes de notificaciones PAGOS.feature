@@ -1,0 +1,1 @@
+Feature: BDSD-2390	Ajustes de notificaciones PAGOS

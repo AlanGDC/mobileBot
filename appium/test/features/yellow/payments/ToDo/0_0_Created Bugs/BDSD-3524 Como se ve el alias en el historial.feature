@@ -1,0 +1,1 @@
+Feature: BDSD-3524	Como se ve el alias en el historial

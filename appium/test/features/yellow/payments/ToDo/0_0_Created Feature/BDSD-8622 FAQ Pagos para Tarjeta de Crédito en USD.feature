@@ -1,0 +1,1 @@
+Feature: BDSD-8622	FAQ Pagos para Tarjeta de Crédito en USD

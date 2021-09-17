@@ -1,0 +1,1 @@
+Feature: BDSD-9331	Taggeos ( errores y parametros)

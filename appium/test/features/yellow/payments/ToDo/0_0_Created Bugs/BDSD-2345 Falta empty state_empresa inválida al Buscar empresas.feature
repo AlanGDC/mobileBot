@@ -1,0 +1,1 @@
+Feature: BDSD-2345	Falta empty state/empresa inválida al Buscar empresas

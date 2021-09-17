@@ -1,0 +1,1 @@
+Feature: BDSD-6714	Payments - Buscador empresa - IOS - El sistema presenta un error cuando se ingresa un "(" (parentesis) en el campo Busqueda empresa.

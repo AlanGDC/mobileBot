@@ -1,0 +1,1 @@
+Feature: BDSD-5706	Payments - Recargas - SAETA - El texto de abajo indica "De 8 a 7 digitos", en los escenarios se planteo "De 7 a 8 digitos".

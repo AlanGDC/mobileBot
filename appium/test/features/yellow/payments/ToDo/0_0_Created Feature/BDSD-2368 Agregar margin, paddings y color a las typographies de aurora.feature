@@ -1,0 +1,1 @@
+Feature: BDSD-2368	Agregar margin, paddings y color a las typographies de aurora

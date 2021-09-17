@@ -1,0 +1,1 @@
+Feature: BDSD-8722	Mostrar flag de invalid crosscheck data en backoffice

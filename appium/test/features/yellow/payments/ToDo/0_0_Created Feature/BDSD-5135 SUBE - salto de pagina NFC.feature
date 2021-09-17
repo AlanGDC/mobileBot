@@ -1,0 +1,1 @@
+Feature: BDSD-5135	SUBE - salto de pagina NFC

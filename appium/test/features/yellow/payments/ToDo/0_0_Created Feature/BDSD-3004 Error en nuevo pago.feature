@@ -1,0 +1,1 @@
+Feature: BDSD-3004	Error en nuevo pago

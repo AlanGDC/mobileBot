@@ -1,0 +1,1 @@
+Feature: BDSD-2036	Refactoring de Pantallas de Pago

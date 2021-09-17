@@ -1,0 +1,1 @@
+Feature: BDSD-3002	Barra scroll en recargas

@@ -1,0 +1,1 @@
+Feature: BDSD-4356	Centrar hint error monto en pago

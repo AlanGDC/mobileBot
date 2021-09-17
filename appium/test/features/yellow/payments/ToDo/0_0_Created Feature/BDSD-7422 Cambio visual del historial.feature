@@ -1,0 +1,1 @@
+Feature: BDSD-7422	Cambio visual del historial

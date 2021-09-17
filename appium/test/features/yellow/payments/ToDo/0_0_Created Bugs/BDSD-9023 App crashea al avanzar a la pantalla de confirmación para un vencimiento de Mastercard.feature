@@ -1,0 +1,1 @@
+Feature: BDSD-9023	App crashea al avanzar a la pantalla de confirmación para un vencimiento de Mastercard

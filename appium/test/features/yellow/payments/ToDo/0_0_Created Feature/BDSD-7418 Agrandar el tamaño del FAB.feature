@@ -1,0 +1,1 @@
+Feature: BDSD-7418	Agrandar el tamaño del FAB

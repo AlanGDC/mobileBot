@@ -1,0 +1,1 @@
+Feature: BDSD-4359	al entrar en el detalle de un pago dice " transactionNumer" en ves de "numero de transaccion"

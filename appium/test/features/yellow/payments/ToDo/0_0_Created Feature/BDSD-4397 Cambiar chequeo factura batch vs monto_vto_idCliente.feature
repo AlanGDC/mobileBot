@@ -1,0 +1,1 @@
+Feature: BDSD-4397	Cambiar chequeo factura batch vs monto/vto/idCliente

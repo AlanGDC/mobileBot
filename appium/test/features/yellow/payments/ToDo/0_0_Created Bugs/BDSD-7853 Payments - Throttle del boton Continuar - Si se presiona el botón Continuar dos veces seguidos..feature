@@ -1,0 +1,1 @@
+Feature: BDSD-7853	Payments - Throttle del boton Continuar - Si se presiona el botón Continuar dos veces seguidos.

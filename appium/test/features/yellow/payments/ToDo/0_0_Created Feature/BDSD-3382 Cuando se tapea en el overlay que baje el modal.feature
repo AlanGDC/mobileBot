@@ -1,0 +1,1 @@
+Feature: BDSD-3382	Cuando se tapea en el overlay que baje el modal

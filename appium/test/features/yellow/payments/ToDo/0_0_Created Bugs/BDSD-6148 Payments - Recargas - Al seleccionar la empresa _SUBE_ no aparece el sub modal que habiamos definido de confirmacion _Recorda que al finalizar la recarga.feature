@@ -1,0 +1,1 @@
+Feature: BDSD-6148	Payments - Recargas - Al seleccionar la empresa "SUBE" no aparece el sub modal que habiamos definido de confirmacion "Recorda que al finalizar la recarga..:"

@@ -1,0 +1,1 @@
+Feature: BDSD-7849	La vista de pago masivo tiene los checkbox descentrados

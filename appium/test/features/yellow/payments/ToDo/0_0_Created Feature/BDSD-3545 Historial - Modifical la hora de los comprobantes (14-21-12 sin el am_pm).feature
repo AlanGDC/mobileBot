@@ -1,0 +1,1 @@
+Feature: BDSD-3545	Historial - Modifical la hora de los comprobantes (14:21:12 sin el am/pm)

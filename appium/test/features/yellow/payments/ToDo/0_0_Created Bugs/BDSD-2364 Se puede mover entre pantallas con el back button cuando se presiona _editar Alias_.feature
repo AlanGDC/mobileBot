@@ -1,0 +1,1 @@
+Feature: BDSD-2364	Se puede mover entre pantallas con el back button cuando se presiona "editar Alias"

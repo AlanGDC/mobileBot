@@ -1,0 +1,1 @@
+Feature: BDSD-5730	Payments - Notificaciones in app con vencimiento - El sistema indica que no hay facturas pendientes cuando si existen facturas pendientes.

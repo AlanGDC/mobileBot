@@ -1,0 +1,1 @@
+Feature: BDSD-6580	Payments - Agenda - Pagar Agendado - Al pagar pagar y volver al menu se achica pantalla.

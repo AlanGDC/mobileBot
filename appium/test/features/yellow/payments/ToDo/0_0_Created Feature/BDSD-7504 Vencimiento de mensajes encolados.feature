@@ -1,0 +1,1 @@
+Feature: BDSD-7504	Vencimiento de mensajes encolados

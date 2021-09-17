@@ -1,0 +1,1 @@
+Feature: BDSD-2947	A veces no se puede compartir comprobante en pago masivo

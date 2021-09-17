@@ -1,0 +1,1 @@
+Feature: BDSD-5233	Mejoras y Wordings

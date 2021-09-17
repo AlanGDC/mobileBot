@@ -1,0 +1,1 @@
+Feature: BDSD-8757	Taggeo de acciones

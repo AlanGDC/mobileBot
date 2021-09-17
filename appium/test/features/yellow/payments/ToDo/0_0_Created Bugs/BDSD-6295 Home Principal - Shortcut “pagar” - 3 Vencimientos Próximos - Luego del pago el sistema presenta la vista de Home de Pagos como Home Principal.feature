@@ -1,0 +1,1 @@
+Feature: BDSD-6295	Home Principal - Shortcut “pagar” - 3 Vencimientos Próximos - Luego del pago el sistema presenta la vista de Home de Pagos como Home Principal.

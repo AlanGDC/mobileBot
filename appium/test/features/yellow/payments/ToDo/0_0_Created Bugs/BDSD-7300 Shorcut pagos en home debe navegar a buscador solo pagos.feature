@@ -1,0 +1,1 @@
+Feature: BDSD-7300	Shorcut pagos en home debe navegar a buscador solo pagos

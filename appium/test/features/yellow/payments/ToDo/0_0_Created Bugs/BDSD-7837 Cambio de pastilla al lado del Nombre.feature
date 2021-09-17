@@ -1,0 +1,1 @@
+Feature: BDSD-7837	Cambio de pastilla al lado del Nombre

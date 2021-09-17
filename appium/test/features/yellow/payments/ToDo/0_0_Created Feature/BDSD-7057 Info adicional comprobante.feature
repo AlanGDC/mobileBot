@@ -1,0 +1,1 @@
+Feature: BDSD-7057	Info adicional comprobante

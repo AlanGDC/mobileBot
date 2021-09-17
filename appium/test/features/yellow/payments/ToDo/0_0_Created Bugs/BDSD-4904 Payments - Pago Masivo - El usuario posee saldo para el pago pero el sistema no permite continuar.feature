@@ -1,0 +1,1 @@
+Feature: BDSD-4904	Payments - Pago Masivo - El usuario posee saldo para el pago pero el sistema no permite continuar.

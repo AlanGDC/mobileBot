@@ -1,0 +1,1 @@
+Feature: BDSD-2346	Swipe hacia derecha en servicio agendado también muestra "Olvidar"

@@ -1,0 +1,1 @@
+Feature: BDSD-7049	Bug: Pago Masivo me saca de la app

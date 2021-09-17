@@ -1,0 +1,1 @@
+Feature: BDSD-2404	Refactor código CodeInput

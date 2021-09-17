@@ -1,0 +1,1 @@
+Feature: BDSD-2646	Crear ticket PMC y compartir

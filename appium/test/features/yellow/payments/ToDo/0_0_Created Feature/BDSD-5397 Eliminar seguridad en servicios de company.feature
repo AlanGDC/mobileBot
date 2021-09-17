@@ -1,0 +1,1 @@
+Feature: BDSD-5397	Eliminar seguridad en servicios de company

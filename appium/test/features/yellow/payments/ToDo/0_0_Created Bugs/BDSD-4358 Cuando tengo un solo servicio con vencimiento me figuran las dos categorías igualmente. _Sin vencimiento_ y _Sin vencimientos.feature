@@ -1,0 +1,1 @@
+Feature: BDSD-4358	Cuando tengo un solo servicio con vencimiento me figuran las dos categorías igualmente. "Sin vencimiento" y "Sin vencimientos

@@ -1,0 +1,1 @@
+Feature: BDSD-5154	Payments - Usuario pagar servicio con el link button Pagar Servicio Agendado - Sistema presenta un error al buscar agendado

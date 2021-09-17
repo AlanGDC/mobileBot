@@ -1,0 +1,1 @@
+Feature: BDSD-2350	Click en servicio agendado, si no modifico el alias el botón debería estar deshabilitado

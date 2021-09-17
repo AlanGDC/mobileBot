@@ -1,0 +1,1 @@
+Feature: BDSD-7364	Notif: Pierden conexión las queues y no se reconectan automáticamente

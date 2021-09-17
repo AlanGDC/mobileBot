@@ -1,0 +1,1 @@
+Feature: BDSD-7450	Sub pantalla de "Entendido" luego de seleccionar empresa SUBE se mantiene activa si se presiona algo del background.

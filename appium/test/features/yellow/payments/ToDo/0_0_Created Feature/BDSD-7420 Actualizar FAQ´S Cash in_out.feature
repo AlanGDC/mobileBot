@@ -1,0 +1,1 @@
+Feature: BDSD-7420	Actualizar FAQ´S Cash in/out

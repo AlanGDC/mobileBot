@@ -1,0 +1,1 @@
+Feature: BDSD-2349	Click en servicio agendado, foco en input debería ocultar link "olvidar este servicio"

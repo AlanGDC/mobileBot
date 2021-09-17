@@ -1,0 +1,1 @@
+Feature: BDSD-8477	Actualización de Cash in RapiPago

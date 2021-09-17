@@ -1,0 +1,1 @@
+Feature: BDSD-8810	Bugs INT

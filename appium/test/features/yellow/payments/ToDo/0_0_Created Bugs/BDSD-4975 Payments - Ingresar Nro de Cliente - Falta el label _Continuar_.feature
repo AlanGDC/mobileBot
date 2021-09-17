@@ -1,0 +1,1 @@
+Feature: BDSD-4975	Payments - Ingresar Nro de Cliente - Falta el label "Continuar"

@@ -1,0 +1,1 @@
+Feature: BDSD-2351	Falta texto empty state al olvidar todos los servicios agendados

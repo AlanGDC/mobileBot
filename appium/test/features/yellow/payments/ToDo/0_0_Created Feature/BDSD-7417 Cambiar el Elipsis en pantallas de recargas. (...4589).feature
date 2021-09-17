@@ -1,0 +1,1 @@
+Feature: BDSD-7417	Cambiar el Elipsis en pantallas de recargas. (...4589)

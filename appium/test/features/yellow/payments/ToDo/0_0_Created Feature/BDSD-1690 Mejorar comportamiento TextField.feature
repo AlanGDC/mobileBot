@@ -1,0 +1,1 @@
+Feature: BDSD-1690	Mejorar comportamiento TextField

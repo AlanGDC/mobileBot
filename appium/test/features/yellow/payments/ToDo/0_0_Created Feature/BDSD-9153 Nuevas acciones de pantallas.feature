@@ -1,0 +1,1 @@
+Feature: BDSD-9153	Nuevas acciones de pantallas

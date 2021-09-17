@@ -1,0 +1,289 @@
+{
+	"info": {
+		"_postman_id": "77c05361-b1da-4f7e-b6ec-c3320cb46eec",
+		"name": "BitRise API Downoad App CYAN",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Workflows",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "ddd8f1ac-af0d-4a01-bbf8-820272d36e35",
+						"exec": [
+							"",
+							"   let json_response = JSON.parse(responseBody);",
+							"",
+							"",
+							"",
+							"pm.globals.set(\"slug\", json_response.data[0].slug);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "Sp6b6HFKU3-Cyq09tdkrM5u_Q4GjQE48gqxdPEkAfW7A4I121HeEWO0Xp4lsQ5O0hax_XSOhAAU3ZuHt2YlqiQ",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "Authorization",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.bitrise.io/v0.1/apps/6325ff8a076da038/build-workflows",
+					"protocol": "https",
+					"host": [
+						"api",
+						"bitrise",
+						"io"
+					],
+					"path": [
+						"v0.1",
+						"apps",
+						"6325ff8a076da038",
+						"build-workflows"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Last bds-cyan-android",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "c7a014e9-09e8-4259-81c1-56168b621b1b",
+						"exec": [
+							"",
+							"   let json_response = JSON.parse(responseBody);",
+							"",
+							"",
+							"",
+							"pm.globals.set(\"slug\", json_response.data[0].slug);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "Sp6b6HFKU3-Cyq09tdkrM5u_Q4GjQE48gqxdPEkAfW7A4I121HeEWO0Xp4lsQ5O0hax_XSOhAAU3ZuHt2YlqiQ",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "Authorization",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.bitrise.io/v0.1/apps/6325ff8a076da038/builds?limit=1&workflow=bds-cyan-android&sort_by=created_at&status=1",
+					"protocol": "https",
+					"host": [
+						"api",
+						"bitrise",
+						"io"
+					],
+					"path": [
+						"v0.1",
+						"apps",
+						"6325ff8a076da038",
+						"builds"
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "1"
+						},
+						{
+							"key": "workflow",
+							"value": "bds-cyan-android"
+						},
+						{
+							"key": "sort_by",
+							"value": "created_at"
+						},
+						{
+							"key": "status",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Artifact",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "32d0acd0-de53-4cf2-9ef9-0206115e5801",
+						"exec": [
+							"",
+							"   let json_response = JSON.parse(responseBody);",
+							"",
+							"",
+							"",
+							"pm.globals.set(\"artifact_id\", json_response.data[0].slug);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "Sp6b6HFKU3-Cyq09tdkrM5u_Q4GjQE48gqxdPEkAfW7A4I121HeEWO0Xp4lsQ5O0hax_XSOhAAU3ZuHt2YlqiQ",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "Authorization",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.bitrise.io/v0.1/apps/6325ff8a076da038/builds/{{slug}}/artifacts",
+					"protocol": "https",
+					"host": [
+						"api",
+						"bitrise",
+						"io"
+					],
+					"path": [
+						"v0.1",
+						"apps",
+						"6325ff8a076da038",
+						"builds",
+						"{{slug}}",
+						"artifacts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Download URL",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "79ea79ab-a8b3-4960-ae5f-5e2512729653",
+						"exec": [
+							"",
+							"   let json_response = JSON.parse(responseBody);",
+							"",
+							"",
+							"",
+							"pm.globals.set(\"urlDownload\", json_response.data.expiring_download_url);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "Sp6b6HFKU3-Cyq09tdkrM5u_Q4GjQE48gqxdPEkAfW7A4I121HeEWO0Xp4lsQ5O0hax_XSOhAAU3ZuHt2YlqiQ",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "Authorization",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.bitrise.io/v0.1/apps/6325ff8a076da038/builds/{{slug}}/artifacts/{{artifact_id}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"bitrise",
+						"io"
+					],
+					"path": [
+						"v0.1",
+						"apps",
+						"6325ff8a076da038",
+						"builds",
+						"{{slug}}",
+						"artifacts",
+						"{{artifact_id}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Donwload INT APP",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{urlDownload}}",
+					"host": [
+						"{{urlDownload}}"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "67d49187-475f-4e7b-b95c-7961ed77a1a3",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "4dd726dc-4cb3-4c3c-8ebe-9071fd21a08f",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"protocolProfileBehavior": {}
+}

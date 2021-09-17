@@ -1,0 +1,1 @@
+Feature: BDSD-4971	No se pueden realizar pagos

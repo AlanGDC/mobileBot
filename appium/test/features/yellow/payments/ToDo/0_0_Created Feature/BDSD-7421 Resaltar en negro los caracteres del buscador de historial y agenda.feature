@@ -1,0 +1,1 @@
+Feature: BDSD-7421	Resaltar en negro los caracteres del buscador de historial y agenda

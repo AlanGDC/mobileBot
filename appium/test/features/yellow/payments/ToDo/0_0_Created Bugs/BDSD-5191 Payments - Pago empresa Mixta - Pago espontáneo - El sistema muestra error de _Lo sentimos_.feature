@@ -1,0 +1,1 @@
+Feature: BDSD-5191	Payments - Pago empresa Mixta - Pago espontáneo - El sistema muestra error de "Lo sentimos"

@@ -1,0 +1,1 @@
+Feature: BDSD-3380	Faveo y desfaveo en recarga no impacta en la home

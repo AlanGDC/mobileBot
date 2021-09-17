@@ -1,0 +1,1 @@
+Feature: BDSD-6611	Payments - Agenda - Orden alfabetico dado por Nombre de Empresa en vez de por Alias

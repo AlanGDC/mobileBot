@@ -1,0 +1,1 @@
+Feature: BDSD-5274	Payments - Recargas - Primera Recarga - Sube - El sistema presenta el botón "Nueva Recarga"

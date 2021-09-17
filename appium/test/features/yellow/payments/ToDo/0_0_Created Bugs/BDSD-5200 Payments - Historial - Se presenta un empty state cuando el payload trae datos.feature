@@ -1,0 +1,1 @@
+Feature: BDSD-5200	Payments - Historial - Se presenta un empty state cuando el payload trae datos

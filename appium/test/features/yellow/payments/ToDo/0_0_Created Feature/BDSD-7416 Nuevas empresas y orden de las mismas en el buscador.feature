@@ -1,0 +1,1 @@
+Feature: BDSD-7416	Nuevas empresas y orden de las mismas en el buscador

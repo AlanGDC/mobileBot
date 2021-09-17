@@ -1,0 +1,1 @@
+Feature: BDSD-7644	No se deben enviar notificaciones para recargas

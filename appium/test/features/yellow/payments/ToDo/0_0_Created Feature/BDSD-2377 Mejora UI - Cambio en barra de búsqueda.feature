@@ -1,0 +1,1 @@
+Feature: BDSD-2377	Mejora UI - Cambio en barra de búsqueda

@@ -1,0 +1,1 @@
+Feature: BDSD-5400	Implementación de versionado de base de datos

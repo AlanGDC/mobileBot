@@ -1,0 +1,1 @@
+Feature: BDSD-3535	Agenda - Que no pueda swipear para arriba, y cuando hago pull to refresh que el header quede estático y la barra de búsqueda también

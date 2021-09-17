@@ -1,0 +1,1 @@
+Feature: BDSD-2946	Tipografía de las empresas

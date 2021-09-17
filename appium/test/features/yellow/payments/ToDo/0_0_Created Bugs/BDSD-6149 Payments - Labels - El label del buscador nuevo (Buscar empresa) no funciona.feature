@@ -1,0 +1,1 @@
+Feature: BDSD-6149	Payments - Labels - El label del buscador nuevo (Buscar empresa) no funciona.

@@ -1,0 +1,1 @@
+Feature: BDSD-5857	Payments - Pago empresa Mixta - Pago espontáneo - No aparece el texto de "Pago Espontaneo"

@@ -1,0 +1,1 @@
+Feature: BDSD-6610	Payments - Agenda - Eliminar Swipeando - No se permite eliminar un valor con desde el swipeo y seleccionando Eliminar

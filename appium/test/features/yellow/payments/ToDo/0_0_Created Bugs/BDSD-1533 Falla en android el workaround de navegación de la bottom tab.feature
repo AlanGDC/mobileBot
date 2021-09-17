@@ -1,0 +1,1 @@
+Feature: BDSD-1533	Falla en android el workaround de navegación de la bottom tab

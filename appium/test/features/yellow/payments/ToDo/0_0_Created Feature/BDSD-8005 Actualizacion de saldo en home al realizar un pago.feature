@@ -1,0 +1,1 @@
+Feature: BDSD-8005	Actualizacion de saldo en home al realizar un pago

@@ -1,0 +1,1 @@
+Feature: BDSD-3007	Vencimiento TC en dólares

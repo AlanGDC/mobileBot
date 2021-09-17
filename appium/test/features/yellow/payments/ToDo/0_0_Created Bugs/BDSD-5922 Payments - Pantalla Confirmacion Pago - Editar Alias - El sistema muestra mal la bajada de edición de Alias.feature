@@ -1,0 +1,1 @@
+Feature: BDSD-5922	Payments - Pantalla Confirmacion Pago - Editar Alias - El sistema muestra mal la bajada de edición de Alias.

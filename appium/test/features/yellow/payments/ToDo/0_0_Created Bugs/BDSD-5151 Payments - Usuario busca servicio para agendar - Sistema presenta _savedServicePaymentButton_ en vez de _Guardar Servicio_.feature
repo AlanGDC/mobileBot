@@ -1,0 +1,1 @@
+Feature: BDSD-5151	Payments - Usuario busca servicio para agendar - Sistema presenta "savedServicePaymentButton" en vez de "Guardar Servicio"

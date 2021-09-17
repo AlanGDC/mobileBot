@@ -1,0 +1,1 @@
+Feature: BDSD-7443	Extender la lista de pagos pendientes

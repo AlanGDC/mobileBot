@@ -1,0 +1,1 @@
+Feature: BDSD-2332	Mejoras Navegación - Mejorar inconsistencia transiciones

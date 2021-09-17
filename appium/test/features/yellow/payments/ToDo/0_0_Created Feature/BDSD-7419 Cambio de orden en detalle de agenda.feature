@@ -1,0 +1,1 @@
+Feature: BDSD-7419	Cambio de orden en detalle de agenda

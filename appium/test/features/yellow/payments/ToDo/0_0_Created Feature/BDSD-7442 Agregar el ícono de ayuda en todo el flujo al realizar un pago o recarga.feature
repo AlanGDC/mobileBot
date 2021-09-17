@@ -1,0 +1,1 @@
+Feature: BDSD-7442	Agregar el ícono de ayuda en todo el flujo al realizar un pago o recarga

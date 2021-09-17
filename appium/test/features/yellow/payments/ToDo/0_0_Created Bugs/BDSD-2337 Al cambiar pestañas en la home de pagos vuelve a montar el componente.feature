@@ -1,0 +1,1 @@
+Feature: BDSD-2337	Al cambiar pestañas en la home de pagos vuelve a montar el componente

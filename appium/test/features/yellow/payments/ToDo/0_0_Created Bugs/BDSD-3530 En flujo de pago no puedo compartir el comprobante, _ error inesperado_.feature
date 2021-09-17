@@ -1,0 +1,1 @@
+Feature: BDSD-3530	En flujo de pago no puedo compartir el comprobante, " error inesperado"

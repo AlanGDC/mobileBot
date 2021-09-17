@@ -1,0 +1,1 @@
+Feature: BDSD-4906	Payments - Pago empresa VEP - El sistema informa que el servicio no tiene vencimientos pero responde un 200 el servicio con valores de invoice

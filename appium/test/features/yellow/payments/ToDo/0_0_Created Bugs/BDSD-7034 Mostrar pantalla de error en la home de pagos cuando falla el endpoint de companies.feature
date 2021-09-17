@@ -1,0 +1,1 @@
+Feature: BDSD-7034	Mostrar pantalla de error en la home de pagos cuando falla el endpoint de companies

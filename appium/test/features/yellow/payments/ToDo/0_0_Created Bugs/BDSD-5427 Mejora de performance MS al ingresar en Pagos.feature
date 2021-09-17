@@ -1,0 +1,1 @@
+Feature: BDSD-5427	Mejora de performance MS al ingresar en Pagos

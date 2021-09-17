@@ -1,0 +1,1 @@
+Feature: BDSD-9122	Francisco Esteves - No llega notificación push
