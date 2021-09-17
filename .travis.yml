@@ -13,6 +13,7 @@ script:
   - npm -v 
   - npm –version
   # Fixear NODE js queda con version vieja
+  # Instalar emulator
   - sudo apt-get install default-jdk | echo y
   - java -version
   - wget https://dl.google.com/android/repository/sdk-tools-linux-3859397.zip
@@ -21,5 +22,27 @@ script:
   - cd tools/
   - pwd
   - export PATH=/home/travis/build/AlanGDC/mobileBot/tools:/home/travis/build/AlanGDC/mobileBot/tools/bin:$PATH
-  - sdkmanager 
+  - sdkmanager --list
+  - sdkmanager --update
+  - sdkmanager --list
+  - echo "--install android image---"
+  - echo "y" | sdkmanager --install '$(EMULATOR_VERSION_28)'
+  - echo "--install HAXM---"
+  - echo "y" | sdkmanager --install 'extras;intel;Hardware_Accelerated_Execution_Manager'
+#5- Create avd device and start emulator
+  - echo "-----Create avd device-----"
+  - echo "no" | avdmanager create avd -n android_emulator -k '$(EMULATOR_VERSION_28)' -d 17 --force
+  - echo " "
+  - echo "-----Create avd device-----"
+  - echo " "
+  - echo "Emulator created successfully, launching it"
+  - echo " "
+  - echo "-----Create Emulator-----"
+# adb -e shell getprop init.svc.bootanim
+  - nohup $ANDROID_HOME/emulator/emulator -avd android_emulator -gpu auto -no-window -camera-back none -camera-front none -memory 1536  -no-boot-anim -no-snapshot-save -accel on -engine qemu2 -no-audio > /dev/null 2>&1 &
+#  -verbose -no-window -no-audio
+  - echo "-----Create Emulator-----"
+  - adb devices
+#6- Reset adb
+  - adb kill-server && adb start-server
 #         /home/travis/build/AlanGDC/mobileBot/cmdline-tools
