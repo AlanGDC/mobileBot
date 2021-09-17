@@ -1,48 +1,79 @@
-language: java
+# language: java
 
 
-script: 
-  - sudo apt update | echo y
-  - sudo apt install nodejs | echo y
-  - node --version
-  - sudo apt-get update
-  - sudo apt-get update
-  - sudo apt-get install python-software-properties  
-  - curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash –
-  - sudo apt-get install nodejs | echo y
-  - npm -v 
-  - npm –version
-  # Fixear NODE js queda con version vieja
-  # Instalar emulator
-  - sudo apt-get install default-jdk | echo y
-  - java -version
-  - wget https://dl.google.com/android/repository/sdk-tools-linux-3859397.zip
-  - unzip sdk-tools-linux-3859397.zip
-  #- mv /home/travis/build/AlanGDC/mobileBot/cmdline-tools /home/travis/build/AlanGDC/mobileBot/tools
-  - cd tools/
-  - pwd
-  - export PATH=/home/travis/build/AlanGDC/mobileBot/tools:/home/travis/build/AlanGDC/mobileBot/tools/bin:$PATH
-  - sdkmanager --list
-  - sdkmanager --update
-  - sdkmanager --list
-  - echo "--install android image---"
-  - echo "y" | sdkmanager --install '$(EMULATOR_VERSION_28)'
-  - echo "--install HAXM---"
-  - echo "y" | sdkmanager --install 'extras;intel;Hardware_Accelerated_Execution_Manager'
-#5- Create avd device and start emulator
-  - echo "-----Create avd device-----"
-  - echo "no" | avdmanager create avd -n android_emulator -k '$(EMULATOR_VERSION_28)' -d 17 --force
-  - echo " "
-  - echo "-----Create avd device-----"
-  - echo " "
-  - echo "Emulator created successfully, launching it"
-  - echo " "
-  - echo "-----Create Emulator-----"
-# adb -e shell getprop init.svc.bootanim
-  - nohup $ANDROID_HOME/emulator/emulator -avd android_emulator -gpu auto -no-window -camera-back none -camera-front none -memory 1536  -no-boot-anim -no-snapshot-save -accel on -engine qemu2 -no-audio > /dev/null 2>&1 &
-#  -verbose -no-window -no-audio
-  - echo "-----Create Emulator-----"
-  - adb devices
-#6- Reset adb
-  - adb kill-server && adb start-server
-#         /home/travis/build/AlanGDC/mobileBot/cmdline-tools
+# script: 
+#   - sudo apt update | echo y
+#   - sudo apt install nodejs | echo y
+#   - node --version
+#   - sudo apt-get update
+#   - sudo apt-get update
+#   - sudo apt-get install python-software-properties  
+#   - curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash –
+#   - sudo apt-get install nodejs | echo y
+#   - npm -v 
+#   - npm –version
+#   # Fixear NODE js queda con version vieja
+#   # Instalar emulator
+#   - sudo apt-get install default-jdk | echo y
+#   - java -version
+#   - wget https://dl.google.com/android/repository/sdk-tools-linux-3859397.zip
+#   - unzip sdk-tools-linux-3859397.zip
+#   #- mv /home/travis/build/AlanGDC/mobileBot/cmdline-tools /home/travis/build/AlanGDC/mobileBot/tools
+#   - cd tools/
+#   - pwd
+#   - export PATH=/home/travis/build/AlanGDC/mobileBot/tools:/home/travis/build/AlanGDC/mobileBot/tools/bin:$PATH
+#   - sdkmanager --list
+#   - sdkmanager --update
+#   - sdkmanager --list
+#   - echo "--install android image---"
+#   - echo "y" | sdkmanager --install '$(EMULATOR_VERSION_28)'
+#   - echo "--install HAXM---"
+#   - echo "y" | sdkmanager --install 'extras;intel;Hardware_Accelerated_Execution_Manager'
+# #5- Create avd device and start emulator
+#   - echo "-----Create avd device-----"
+#   - echo "no" | avdmanager create avd -n android_emulator -k '$(EMULATOR_VERSION_28)' -d 17 --force
+#   - echo " "
+#   - echo "-----Create avd device-----"
+#   - echo " "
+#   - echo "Emulator created successfully, launching it"
+#   - echo " "
+#   - echo "-----Create Emulator-----"
+# # adb -e shell getprop init.svc.bootanim
+#   - nohup $ANDROID_HOME/emulator/emulator -avd android_emulator -gpu auto -no-window -camera-back none -camera-front none -memory 1536  -no-boot-anim -no-snapshot-save -accel on -engine qemu2 -no-audio > /dev/null 2>&1 &
+# #  -verbose -no-window -no-audio
+#   - echo "-----Create Emulator-----"
+#   - adb devices
+# #6- Reset adb
+#   - adb kill-server && adb start-server
+# #         /home/travis/build/AlanGDC/mobileBot/cmdline-tools
+
+sudo: required
+language: android
+jdk: oraclejdk8
+dist: trusty
+
+android:
+  licenses:
+    - 'android-sdk-preview-license-.+'
+    - 'android-sdk-license-.+'
+    - 'google-gdk-license-.+'
+ 
+  components:
+    - tools
+    - build-tools-30.0.2
+    - android-30
+    - android-22
+    - extra-google-google_play_services
+    - extra-google-m2repository
+    - extra-android-m2repository
+    - sys-img-armeabi-v7a-android-22
+ 
+before_install:
+  - chmod +x gradlew
+  - yes | sdkmanager "platforms;android-30"
+
+script:
+  - echo no | android create avd --force -n test -t android-22 --abi armeabi-v7a
+  - emulator -avd test -no-audio -no-window &
+  - android-wait-for-emulator
+  - adb shell input keyevent 82 &
