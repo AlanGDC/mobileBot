@@ -69,7 +69,7 @@ android:
     - sys-img-armeabi-v7a-android-22
  
 before_install:
-  - chmod +x gradlew
+#  - chmod +x gradlew
   - yes | sdkmanager "platforms;android-30"
 
 script:
