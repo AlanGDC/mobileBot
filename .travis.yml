@@ -69,4 +69,4 @@ script:
   - ls
   - pwd
   - cd appium
-  - yarn
+  - APK="/home/travis/build/AlanGDC/mobileBot/qa.abcvisa.7.1.0.45948.apk" ENV="./appium/test/features/prueba.feature" yarn test:android
