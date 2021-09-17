@@ -15,9 +15,9 @@ script:
   # Fixear NODE js queda con version vieja
   - sudo apt-get install default-jdk | echo y
   - java -version
-  - wget https://dl.google.com/android/repository/commandlinetools-linux-7583922_latest.zip
-  - unzip commandlinetools-linux-7583922_latest.zip
-  - mv /home/travis/build/AlanGDC/mobileBot/cmdline-tools /home/travis/build/AlanGDC/mobileBot/tools
+  - wget https://dl.google.com/android/repository/sdk-tools-linux-3859397.zip
+  - unzip sdk-tools-linux-3859397.zip
+  #- mv /home/travis/build/AlanGDC/mobileBot/cmdline-tools /home/travis/build/AlanGDC/mobileBot/tools
   - cd tools/
   - pwd
   - export PATH=/home/travis/build/AlanGDC/mobileBot/tools:/home/travis/build/AlanGDC/mobileBot/tools/bin:$PATH
