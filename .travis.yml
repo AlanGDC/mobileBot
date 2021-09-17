@@ -69,4 +69,4 @@ script:
   - ls
   - pwd
   - cd automation-mobile
-  - yarn build
+  - ls
