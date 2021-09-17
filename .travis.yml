@@ -1,9 +1,6 @@
-language: python
+language: java
 
-python:
-
-  - "2.7"
 
 script: 
 
-  - python hello.py
+  - echo "hola guachin"
