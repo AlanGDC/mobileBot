@@ -2,4 +2,6 @@ language: java
 
 
 script: 
+  - sudo apt update | echo y
   - sudo apt install nodejs | echo y
+  - node --version
