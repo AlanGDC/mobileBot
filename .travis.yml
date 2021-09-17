@@ -17,9 +17,9 @@ script:
   - java -version
   - wget https://dl.google.com/android/repository/commandlinetools-linux-7583922_latest.zip
   - unzip commandlinetools-linux-7583922_latest.zip
-  - cd cmdline-tools/
+  - mv /home/travis/build/AlanGDC/mobileBot/cmdline-tools /home/travis/build/AlanGDC/mobileBot/tools
+  - cd tools/
   - pwd
-  - cd bin
-  - ./sdkmanager
-  #- export PATH=/opt/pradip/tools:/opt/pradip/tools/bin:$PATH
-         
+  - export PATH=/opt/pradip/tools:/opt/pradip/tools/bin:$PATH
+  - sdkmanager 
+#         /home/travis/build/AlanGDC/mobileBot/cmdline-tools
