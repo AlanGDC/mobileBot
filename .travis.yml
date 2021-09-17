@@ -20,6 +20,6 @@ script:
   - mv /home/travis/build/AlanGDC/mobileBot/cmdline-tools /home/travis/build/AlanGDC/mobileBot/tools
   - cd tools/
   - pwd
-  - export PATH=/opt/pradip/tools:/opt/pradip/tools/bin:$PATH
+  - export PATH=/home/travis/build/AlanGDC/mobileBot/tools:/home/travis/build/AlanGDC/mobileBot/tools/bin:$PATH
   - sdkmanager 
 #         /home/travis/build/AlanGDC/mobileBot/cmdline-tools
