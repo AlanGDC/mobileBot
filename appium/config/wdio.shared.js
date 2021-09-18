@@ -6,7 +6,8 @@ exports.config = {
   host: "127.0.0.1",
   port: 4723,
   specs: [
-    process.env.ENV
+//    process.env.ENV
+       "./test/features/prueba.feature"
     // "./test/features/yellow/payments/ToDo/2.1_Doing/Login.feature",
     // "./test/features/Green/Faqs/BDSD-2435_FaqsTabInicio.feature"
     // "./test/features/red/Home/BoxPaid.feature"
