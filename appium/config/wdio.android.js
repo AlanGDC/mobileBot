@@ -19,7 +19,7 @@ config.capabilities = [
     deviceReadyTimeout:20,
     androidDeviceReadyTimeout:900,
     androidInstallTimeout:90000,
-    // platformVersion: "8.1",
+    platformVersion: "8.1",
     automationName: "UiAutomator2",
     deviceName: "Google Pixel",
     app: process.env.APK
