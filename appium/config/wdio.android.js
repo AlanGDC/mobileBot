@@ -30,7 +30,8 @@ config.capabilities = [
     device: "Google Pixel 3",
     os_version: "9.0",
     app: process.env.BROWSERSTACK_APP_ID || 'bs://c700ce60cf13ae8ed97705a55b8e022f13c5827c',
-    'browserstack.local': true
+    "browserstack.user" : "alanduarte_uyx2Vj",
+    "browserstack.key" : "22AB1Cum9og1kuVnYoyX"
           
    }
 ];
