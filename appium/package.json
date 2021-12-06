@@ -52,6 +52,8 @@
     "@wdio/sauce-service": "^5.16.10",
     "@wdio/spec-reporter": "^5.18.7",
     "@wdio/sync": "^5.18.7",
+    "@wdio/mocha-framework": "^5.18.7",
+    "browserstack-local": "^1.4.5",
     "allure-commandline": "^2.13.0",
     "axios": "0.19.2",
     "babel-eslint": "^10.0.3",

@@ -5,6 +5,8 @@ let resultado
 exports.config = {
   host: "127.0.0.1",
   port: 4723,
+  user: process.env.BROWSERSTACK_USERNAME || 'alanduarte_uyx2Vj',
+  key: process.env.BROWSERSTACK_ACCESS_KEY || '22AB1Cum9og1kuVnYoyX',
   specs: [
 //    process.env.ENV
        "./test/features/prueba.feature"
